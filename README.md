@@ -2,7 +2,7 @@
 
 Este repositório apresenta meu portfólio profissional, destacando minhas habilidades, experiência e paixão por desenvolvimento.
 
-## Funcionalidades
+## ⭐ Funcionalidades
 
 - **Habilidades:** Uma lista das principais ferramentas e tecnologias que domino.
 - **Sobre minha carreira:** Uma lista das principais ferramentas e tecnologias que domino.
