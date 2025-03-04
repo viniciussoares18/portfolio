@@ -1,0 +1,17 @@
+@import '../../../core/constants/styles/vsp-pallete.scss';
+
+.vsp-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+    &:hover {
+        background-color: $vsp-jet;
+    }
+};

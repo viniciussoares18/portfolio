@@ -61,7 +61,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/vsp-app/public"
+                "input": "projects/vsp-app/assets"
               }
             ],
             "styles": [
@@ -120,7 +120,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/vsp-app/public"
+                "input": "projects/vsp-app/assets"
               }
             ],
             "styles": [

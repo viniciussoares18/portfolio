@@ -4,7 +4,12 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "../../out-tsc/app",
-    "types": []
+    "types": [],
+    "paths": {
+      "vsp-library": [
+        "./../../dist/vsp-library"
+      ]
+    }
   },
   "files": [
     "src/main.ts"

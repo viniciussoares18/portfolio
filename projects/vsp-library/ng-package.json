@@ -3,5 +3,12 @@
   "dest": "../../dist/vsp-library",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    {
+      "glob": "*",
+      "input": "src/core/constants/styles",
+      "output": "styles"
+    }
+  ]
 }

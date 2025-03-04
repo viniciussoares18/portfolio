@@ -1,0 +1,13 @@
+<section
+    [ngClass]="handledClass"
+    [ngStyle]="style"
+    (mouseenter)="handleMouse()"
+    (mouseleave)="handleMouse()"
+    (click)="onClick()">
+    <ng-container *ngIf="props.content; else ngContent">
+        {{props.content}}
+    </ng-container>
+</section>
+<ng-template #ngContent>
+    <ng-content></ng-content>
+</ng-template>
